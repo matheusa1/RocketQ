@@ -21,6 +21,8 @@ module.exports = {
                 await db.run(`UPDATE questions SET read = 1 WHERE id = ${questionId}`)
 
             }
+        } else {
+            res.render('passincorrect', {roomId: roomId})
         }
 
         await db.close(``)
