@@ -1,4 +1,4 @@
-# RoquetQ
+# RocketQ
 NLW together Discover - Site desenvolvido no curso, com a finalidade de criar salas de perguntas.
 
 
